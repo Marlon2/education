@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+.success{
+	overflow: hidden;
+	height: 365px;
+	padding: 40px 10px 16px 80px;
+	zoom: 1;
+}
+
+.success .success-b{
+	float: left;
+	overflow: hidden;
+	width: 304px;
+	height: 40px;
+	padding-left: 56px;
+	background: url(i/20130425D.png) no-repeat 0 -100px;
+}
+
+
+.success .success-b h3{
+	font: normal 24px/40px \5fae\8f6f\96c5\9ed1;
+	color: #7ABD54;
+}
+.success .success-b .btn-continue{
+	float: left;
+	color:black;
+	text-align:center;
+	width: 94px;
+	height: 40px;
+	border:1px solid #F8F8F8;
+	line-height: 40px;
+	font-size: 18px;
+	margin-right: 10px;
+	background:  #DCDCDC;
+}
+.success .success-b .GotoShopingCart{
+	float: left;
+	color:white;
+	text-align:center;
+	width: 190px;
+	height: 40px;
+	border:1px solid #DCDCDC;
+	line-height: 40px;
+	font-size: 18px;
+	background: #FF5151;
+}
+
+
+
+
+
+

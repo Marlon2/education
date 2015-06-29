@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+#nav2{
+margin:0px auto; 
+border-top:1px solid #DCDCDC; 
+border-left:1px solid #DCDCDC; 
+border-right:1px solid #DCDCDC; 
+clear:both;
+height:30px;
+width:955px; 
+}
+#tab{margin-left:20px;overflow:hidden;zoom:1;}
+#tab li{ height:38px; cursor:pointer;padding:0 20px;list-style-type:none;float:left; text-align:center;color:gray; font:bold 16px 宋体; }
+#tab .licurrent{color: black;}
+#hrid{ margin:0 auto;width:953px;border: 1px solid #DCDCDC;  }
+
+#slide_div
+{
+	width:955px;
+	height:260px;
+	margin-bottom:10px;
+	
+}
+#content{
+	border-top-width:0;
+}
+#content ul {
+	
+	/* line-height:25px; */
+	display:none;
+	/* padding:10px 0; */
+}
+#content ul li{
+	width:955px;
+	list-style:none;
+}
+#content ul li .addiv1{
+	width:306px;
+	height:420px;
+	float: left;
+	margin:5px;
+	background:#FFF7FF;
+	border: 1px solid #DCDCDC;
+	/* white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis; */
+ 	overflow: hidden;
+	margin-bottom:10px;
+}
+#content ul li .addiv1 .adpic1{
+	width: 300px;
+	height: 180px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+	line-height: 17px;
+	padding:3px;
+}
+#content ul li .addiv1 .adtxt1{
+	width: 280px;
+	height: 210px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+	line-height: 17px;
+	padding: 5px;
+	margin-left: 10px;
+}
+.adtxt div{
+	width: 275px;
+	height: 210px;
+	
+}
+/* 金牌老师 */
+.teacherbar{
+	width:934px;
+	height: 38px;
+	line-height:38px;
+	border:1px solid #e0e0e0;
+	font-size:16px;
+	color:black;
+	background-image:url(../images/teachernav.png);
+	margin: 0px auto;
+	clear:both;
+	padding-left:20px;
+	/* margin-bottom: 10px; */
+}
+.teacherdiv{
+	width: 955px;
+	margin:0px auto;
+	clear:both;
+	/* border: 1px solid red;  */
+}
+
+.tMinav{
+	width:445px;
+	height:200px;
+	margin:5px;
+	border: 1px solid #d0d0d0; /* #DCDCDC; */ 
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.tMinimg{
+	width:150px;
+	height:200px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+ 	margin-right: 15px;
+}
+.tMinimg img{
+	width:150px;
+	height:180px;
+	float: left;
+}
+.tMintxt{
+	width:260px;
+	height:180px;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+}
+.tMintxt .p1{
+	font-size: 20px;
+	color: red;
+}
+.tMintxt .p1{
+	font-size: 18px;
+}
+
+/* 所获奖项 */
+.prizediv{
+	width: 955px;
+	margin:0px auto;
+}
+.prizenav{
+	width:206px;
+	height:185px;
+	margin:10px 10px 0 10px;
+	border: 1px solid #d0d0d0; /* #DCDCDC; */ 
+	float: left;
+	overflow: hidden;
+	font-size: 14px;
+	margin-bottom:10px;
+}
+.prizenav img{
+	width:200px;
+	height:140px;
+	float: left;
+	padding:3px;
+	overflow: hidden;
+}

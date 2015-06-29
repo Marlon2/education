@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="personal" namespace="/" extends="struts-default">
+  		<action name="personalAction_*" class="personalAction" method="{1}">
+  			<result name="success">/WEB-INF/font/personalCenter.jsp</result>
+			<result name="input">/jsp/login.jsp</result>
+			<result name="list">/WEB-INF/font/cart.jsp</result>
+  		</action>
+  	</package>
+</struts>	

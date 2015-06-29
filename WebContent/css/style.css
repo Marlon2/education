@@ -1,0 +1,78 @@
+/* CSS Document */
+
+/* body{
+	font:12px/180% Arial, Helvetica, sans-serif, "ÐÂËÎÌå";
+	background:url(../../images/common/bg.jpg) center top repeat-x !important;
+} */
+/* slide_box */
+
+/* #nav{ margin:0 auto;width:955px;height:38px; background:url(../images/nav_bj.gif);}
+#nav ul{margin-left:20px;}
+#nav ul li{height:38px; line-height:38px; font-size:14px; float:left; width:85px; font-weight:bold;  text-align:center;list-style:none; }
+#nav ul li a{color:#FFFFFF;}
+#nav ul li a:link,#nav ul li a:visited{color:#FFFFFF; text-decoration:none;}
+#nav ul li a:hover{ display:block;background:url(../images/nav_bj2.gif); color:#0099FF;}
+ */
+ a.more, a.more:link{
+	color: #007cc2;
+}
+
+#nav2{ margin:0 auto; margin-top:270px; width:955px;}
+#tab{margin-left:80px;overflow:hidden;zoom:1;}
+#tab li.current {
+	color:#000;
+	background:#ccc;
+}
+#tab li{ height:38px; cursor:pointer;padding:0 20px;list-style-type:none;float:left; text-align:center;color:gray; font:bold 16px ËÎÌå; }
+#hrid{ margin:0 auto;width:955px; }
+
+#content{
+	border-top-width:0;}
+#content ul {
+	line-height:25px;
+	display:none;
+	margin:3px 0 0 0;
+	/* padding:10px 0; */
+}
+#leftdiv{
+	width:625px;
+	float: left;
+}
+#leftdiv div{
+	width:312px;
+	height:260px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+	line-height: 17px;
+	padding: 2px 0;
+}
+#rightdiv{
+	width:325px;
+	float: left;
+}
+#rightdiv div{
+	width:312px;
+	height:260px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+	line-height: 17px;
+	padding: 2px 0;
+}#yuwenid div{
+	width:312px;
+	height:260px;
+	float: left;
+	white-space:inherit;
+ 	text-overflow:ellipsis;
+ 	-o-text-overflow:ellipsis;
+ 	overflow: hidden;
+	line-height: 17px;
+	padding: 2px 2px;
+}
+#footer{text-align:center;clear:both;}
+

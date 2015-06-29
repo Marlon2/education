@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="banji" namespace="/" extends="struts-default">
+  		<action name="banjiAction_*" class="banjiAction" method="{1}">
+  			<result name="success">/WEB-INF/font/ketang.jsp</result>
+			<result name="input">index.jsp</result>
+  		</action>
+  	</package>
+  	
+  	<package name="bgBanji" namespace="/" extends="struts-default">
+  		<action name="bgBanjiAction_*" class="bgBanjiAction" method="{1}">
+  			<result name="listUI">WEB-INF/bg/banjilist.jsp</result>
+  			<result type="redirectAction" name="action2action">bgBanjiAction_allBanji.action</result>
+  		</action>
+  	</package>
+</struts>	

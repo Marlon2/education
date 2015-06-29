@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">240003</property>
+  <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/education?useUnicode=true&amp;characterEncoding=UTF-8</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <mapping resource="cn/edu/education/domain/User.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Content.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Cart.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Grade.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Person.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Student.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Subject.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Teacher.hbm.xml"/>
+  <!-- <mapping resource="cn/edu/education/domain/Banji.hbm.xml"/> -->
+  <mapping resource="cn/edu/education/domain/Orderd.hbm.xml"/>
+  <mapping resource="cn/edu/education/domain/Banji.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>

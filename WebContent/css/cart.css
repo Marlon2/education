@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+.buyClass-a{
+	height: 38px;
+	line-height:38px;
+	border:1px solid #e0e0e0;
+	font-size:16px;
+	color:black;
+	background-image:url(../images/teachernav.png);
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.Cart_table{
+	border-spacing: 2px;
+	border-color: gray;
+}
+.Cart_table tr{
+	border: 1px solid #fff;
+}
+.Cart_table th{
+	height: 33px;
+	font-weight: normal;
+	border: 0;
+	border-right: 1px solid #fff;
+}
+
+.Cart_table th.tdlast{
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 20px;
+	width: 120px;
+}
+.Cart_table th{
+	background: url(../images/Cart_bg.jpg) repeat-x;
+	height: 33px;
+	font-weight: normal;
+	border: 0;
+	border-right: 1px solid #fff;
+	vertical-align: middle;
+	padding: 0 0px;
+}
+.Cart_table td {
+border-right: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5;
+border-left: 0;
+border-top: 0;
+padding: 15px 20px;
+}
+.Cart_table td.tdlast {
+	vertical-align: top;
+	font-size: 12px;
+	line-height: 24px;
+}
+.Cart_table td {
+border: 1px solid #e5e5e5;
+}
+.Cart_table .select {
+color: #ff5411;
+font-size: 14px;
+}
+.Cart_table a {
+color: #369;
+}
+.Cart_table .Por_list {
+font-size: 12px;
+color: #555;
+vertical-align: top;
+line-height: 21px;
+}
+.Cart_table .Por_list .f16px {
+font-size: 16px;
+}
+.Cart_table .Por_list .f14px {
+	color:#ff4800;
+	font-size:14px;
+}
+.Cart_table .Por_list .pl {
+padding-left: 100px;
+}
+
+.Cart_table .status em{
+	color: #ff4800;
+	font-size: 20px;
+}
+.checkout{
+	padding-top: 10px;
+	overflow: hidden;
+	height: 200px;
+}
+.checkout .l{
+	float: left;
+}
+.checkout .r{
+	float: right;
+	text-align: right;
+}
+.checkout .checkout_btn1{
+	background: #e2e2e2;
+border-radius: 3px;
+border: 1px solid #d2d2d2;
+box-shadow: inset 0 1px 0 #fff;
+line-height: 31px;
+text-align: center;
+background-image: -webkit-linear-gradient(top, #f5f5f5, #e2e2e2);
+background-image: linear-gradient(to bottom, #f5f5f5, #e2e2e2);
+display: inline-block;
+cursor: pointer;
+height: 31px;
+width: 120px;
+font-size: 14px;
+}
+
+.checkout .r p span {
+font-size: 22px;
+font-family: verdana,'微软雅黑';
+}
+.checkout .r p{
+color: #cc0000;
+font-weight: bold;
+}
+.checkout .checkout_btn2{
+	color: #ff5411;
+	float:left;
+	background: #e2e2e2;
+border-radius: 3px;
+border: 1px solid #d2d2d2;
+box-shadow: inset 0 1px 0 #fff;
+width: 140px;
+height: 38px;
+line-height: 38px;
+text-align: center;
+background-image: -webkit-linear-gradient(top, #f5f5f5, #e2e2e2);
+background-image: linear-gradient(to bottom, #f5f5f5, #e2e2e2);
+font-size: 18px;
+display: inline-block;
+cursor: pointer;
+}
+.checkout .checkout_btn3{
+background: #e43f42;
+border: 1px solid #e43f42;
+box-shadow: inset 0 1px 0 #e43f42;
+/* background-image: linear-gradient(to bottom, #ff6501, #ff5411); */
+width: 140px;
+height: 38px;
+line-height: 38px;
+text-align: center;
+font-size: 18px;
+display: inline-block;
+cursor: pointer;
+margin-left: 10px;
+}

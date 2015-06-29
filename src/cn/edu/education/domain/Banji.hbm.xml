@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-6-3 10:51:57 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.edu.education.domain.Banji" table="ZC_BANJI">
+        <id name="bid" type="java.lang.Long">
+            <column name="BID" />
+            <generator class="increment" />
+        </id>
+        <property name="number" type="java.lang.String">
+            <column name="NUMBER" />
+        </property>
+        <many-to-one name="grade" class="cn.edu.education.domain.Grade" lazy="false">
+            <column name="GID" />
+        </many-to-one>
+        <property name="classname" type="java.lang.String">
+            <column name="CLASSNAME" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="studentnumber" type="java.lang.Long">
+            <column name="STUDENTNUMBER" />
+        </property>
+        <property name="signnumber" type="java.lang.Long">
+            <column name="SIGNNUMBER" />
+        </property>
+        <property name="classnumber" type="int">
+            <column name="CLASSNUMBER" />
+        </property>
+        <property name="startdate" type="java.util.Date">
+            <column name="STARTDATE" />
+        </property>
+        <property name="enddate" type="java.util.Date">
+            <column name="ENDDATE" />
+        </property>
+        <property name="startime" type="java.lang.String">
+            <column name="STARTIME" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="price" type="double">
+            <column name="PRICE" />
+        </property>
+        <set name="teachers" table="teacher_banji" lazy="false">
+            <key>
+                <column name="BID" />
+            </key>
+            <many-to-many class="cn.edu.education.domain.Teacher" column="TID"></many-to-many>
+        </set>
+        <set name="students" table="student_banji">
+            <key>
+                <column name="BID" />
+            </key>
+            <many-to-many class="cn.edu.education.domain.Student" column="SID"></many-to-many>
+        </set>
+        <property name="remark" type="java.lang.String">
+            <column name="REMARK" />
+        </property>
+    </class>
+</hibernate-mapping>

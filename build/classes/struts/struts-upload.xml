@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	
+  <package name="bgupload" namespace="/" extends="struts-default">
+  	<action name="bgUploadAction_*" class="bgUploadAction" method="{1}">
+  		<result type="redirectAction" name="action2action">/bgcontent/bgContentAction_alContent.action</result>
+<!--   			<param name="action2action">bgContentAction_alContent.action</param>
+  			<param name="namespace">/bgcontent</param> -->
+        <result name="input">/error.jsp</result>
+           
+  	</action>
+  </package>
+</struts>	

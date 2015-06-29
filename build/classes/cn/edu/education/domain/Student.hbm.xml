@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-6-3 10:51:57 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.edu.education.domain.Student" table="zc_STUDENT">
+        <id name="sid" type="java.lang.Long">
+            <column name="SID" />
+            <generator class="increment" />
+        </id>
+        <property name="stunumber" type="java.lang.String">
+            <column name="STUNUMBER" />
+        </property>
+        <many-to-one name="grade" class="cn.edu.education.domain.Grade">
+            <column name="GID" />
+        </many-to-one>
+        <set name="banjis" table="student_banji">
+            <key>
+                <column name="SID" />
+            </key>
+            <many-to-many class="cn.edu.education.domain.Banji" column="BID"></many-to-many>
+        </set>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="SEX" />
+        </property>
+        <property name="mobilenumber" type="java.lang.String">
+            <column name="MOBILENUMBER" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="birthday" type="java.util.Date">
+            <column name="BIRTHDAY" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="registertime" type="java.util.Date">
+            <column name="REGISTERTIME" />
+        </property>
+        <property name="remark" type="java.lang.String">
+            <column name="REMARK" />
+        </property>
+    </class>
+</hibernate-mapping>

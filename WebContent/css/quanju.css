@@ -1,0 +1,17 @@
+/* CSS Document */
+
+/* body{
+	font:12px "ËÎÌו","Arial Narrow",HELVETICA;
+	background:url(../images/common/bg.jpg) center top repeat-x !important;
+	-webkit-text-size-adjust:100%;
+} */
+a{text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+.fl{float:left; display:inline;}
+.fr{float:right;}
+.clear{clear:both;}

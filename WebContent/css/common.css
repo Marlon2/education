@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select
+{margin:0;padding:0}
+ul,li{
+	list-style:none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a.more{
+	color: #007cc2;
+}
+body{
+	font: 14px/1.5 'Microsoft YaHei','微软雅黑','SimSun','宋体','Tahoma';
+	background:url(../images/common/bg.jpg) center top repeat-x !important;
+}
+.pMinBar{
+	width:956px;
+	margin: 0 auto;
+	height:30px;
+	background-color: #F8F8F8; 
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 13px;
+}
+.wrap{
+	width: 955px;
+	margin: 0 auto;
+}
+.pMinav{
+	float: right;
+	height:30px;
+	line-height: 30px;
+	padding-right:20px;
+	color: #333;
+}
+.pMinav a {
+color: #333;
+text-decoration: none;
+}
+.pMinav .s {
+font-size: 12px;
+font-family: Arial;
+color: #CCC;
+padding: 0 6px;
+}
+
+
+
+
+#top,#nav,#banner,#contents,#footer{width:955px; border:0px #CCCCCC solid; margin:0 auto;}
+#top{height:80px;}
+#top .logo{width:264px; height:77px; background:url(../images/common/zcjy.gif) no-repeat; float:left; margin:0 auto;}
+#top .topz{width:323px; height:77px; float:left; margin-left:20px;}
+#top .topr{width:230px; height:77px; float:right;  padding-top: 10px;}
+/* 菜单栏 */
+.pNavigation{
+	height: 40px;
+	width:956px;
+	background:#226DDD;
+	margin:0 auto;
+}
+ul{
+	list-style:none;
+}
+li{
+	display: list-item;
+}
+.pNavigation .item {
+	float: left;
+	line-height: 40px;
+}
+.pNavigation .home, .pNavigation .sub {
+height: 40px;
+line-height: 40px;
+overflow: hidden;
+font-size: 15px;
+font-weight: bold;
+/* background: url(../images/www_public.png) no-repeat 100% -135px; */
+}
+.pNavigation .home a, .pNavigation .sub a {
+color: #FFF;
+display: block;
+text-align: center;
+}
+.pNavigation ul li div a:hover{background:#2248DD; color:#E6E6E6; text-decoration:none;}
+
+.pNavigation ul .i1,.pNavigation ul .i2
+{
+	width:60px;
+	text-align:center;	
+}
+.pNavigation ul .i3,.pNavigation ul .i4,.pNavigation ul .i5,.pNavigation ul .i6
+{
+	width:85px;
+	text-align:center;
+}
+
+
+/* 图片轮转切换 */
+#slide_box{height:260px; border:0px #CCCCCC solid; width:955px; margin:0 auto;border-bottom:4px solid white; border-top:4px solid white;overflow:hidden;position:absolute;}/*  */
+#slide_box .slide_img{display:inline-block;white-space:nowrap;height:260px;width:auto;position:absolute;left:0;top:0;}
+#slide_box .slide_img li{display:block;float:left;overflow:hidden;}
+#slide_box .slide_img li img{max-width:955px;}
+#slide_order{text-align:right;padding-right:1em;line-height:20px;position:absolute;right:0;bottom:6px;}
+
+/*系列号样式*/
+#slide_order a{display:inline-block;padding:0 6px;float:left;margin-right:4px;border:1px solid #ddd;border-radius:4px;box-shadow:1px 1px 2px #333;background:#999;opacity:0.5;filter:alpha(opacity=50);}
+#slide_order a:hover,#slide_order a.current{color:#FFF;font-weight:700;border-color:#000;background-color:#000;}
+
+/* 底部 */
+.pCopyright {
+text-align: center;
+background-color: #898989;
+color: #DCDCDC;
+padding: 20px 0;
+height:50px;
+clear:both;
+font-size:14px;
+font-family: 'Microsoft YaHei','微软雅黑','Tahoma';
+}
+/*gotop*/
+.cbbfixed {position: fixed;right: 10px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
+.cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #02a2aa;}
+.cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;}
+.cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url(../images/gotop/side-icon02.png);}
+.cbbfixed .gotop:hover {background-color:#2c2d2e;}
+.cbbfixed .cweixin {background: #dadbdd;}
+.cbbfixed .cweixin div {background: url(../images/gotop/erwei.png);width: 194px;height: 199px;position: absolute;left: -194px;top: -115px;opacity: 0;transform: scale(0);    -webkit-transform: scale(0);transform-origin: 100% 70%;-webkit-transform-origin: 100% 70%;transition: transform ease .3s,opacity ease .3s;-webkit-transition: all ease .3s;display:none\0;*display:none;}
+.cbbfixed .cweixin:hover div {display: block;transform: scale(1);-webkit-transform: scale(1);opacity: 1;*display:block;}
+.cbbfixed .cweixin .weixin-icon{float: left;margin:12px 0 0 11px;width:18px;height: 18px; background: url(../images/gotop/side-icon01.png);}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="user" namespace="/" extends="struts-default">
+  		<action name="userAction_*" class="userAction" method="{1}">
+  			<result name="listAction">WEB-INF/bg/user/list.jsp</result>
+  			<result name="addUI">WEB-INF/bg/user/add.jsp</result>
+  			<result name="updateUI">WEB-INF/jsp/user/update.jsp</result>
+  			<result type="redirectAction" name="action2action">userAction_getAllUser.action</result>
+  			
+  			<result name="login">jsp/index.jsp</result>
+  			<result name="main">WEB-INF/bg/main.jsp</result>
+  		</action>
+  	</package>
+  	<!-- <package name="userjson" namespace="/" extends="json-default">
+  		<action name="userJSONAction_*" class="userAction" method="{1}">
+  			<result type="json"></result>
+  		</action>
+  	</package> -->
+</struts>	

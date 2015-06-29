@@ -1,0 +1,194 @@
+@CHARSET "UTF-8";
+body{
+	background-color: #f2f2f2;
+	color: #6d6d6d;
+	font-family: Arial,"宋体",Lucida,Verdana,Helvetica,sans-serif;
+}
+ol,ul{
+	list-style: none;
+}
+li{
+	display: list-item;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+/* 页眉 */
+.pMinBar{
+	height: 30px;
+	background: #FAFAFA; 
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 13px;
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.pMinav{
+	float: right;
+	line-height: 30px;
+	color: #333;
+}
+.pMinav a {
+color: #333;
+text-decoration: none;
+}
+.pMinav .s {
+font-size: 12px;
+font-family: Arial;
+color: #CCC;
+padding: 0 6px;
+}
+
+/* 页头，标题， */
+.top {
+	/* background-color:#fff; */
+	height: 100px;
+	padding: 0;
+	margin: 0 auto;
+	zoom: 1;
+}
+.register_l {
+	float: none;
+	margin: 0;
+	position: relative;
+	float: left;
+}
+.register_r {
+	padding: 5px 0;
+	float: none;
+	margin-top:30px;
+	font-size:26px;
+	position: relative;
+	float: left;
+}
+
+/* 页体 */
+#regist{
+	
+}
+.w{
+	width:900px;
+	margin: 0 auto;
+}
+#regist .mt {
+	background: #f2f2f2;
+	padding-right: 10px;
+	position: relative;
+	overflow: visible;
+	margin-bottom: -1px;
+	border-bottom: 1px solid #dddddd;
+	height: 32px;
+	line-height: 32px;
+}
+#regist .tab {
+	height: 33px;
+	padding-left: 200px;
+	overflow: hidden;
+}
+/* 当前用户 */
+#regist .tab .curr {
+	position: relative;
+	background: #ffffff;
+	color: #e4393c;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-top: 0;
+	box-shadow: 2px 0 2px #DDDDDD;
+	border-bottom: none;
+}
+#regist .tab li {
+	background: #f7f7f7;
+	border: 1px solid #dddddd;
+	margin-right: 10px;
+	margin-top: 3px;
+	font-size: 14px;
+	width: 100px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	color: #F79100;
+	float: left;
+}
+#regist .tab li a {
+	display: block;
+	width: 100px;
+	height: 34px;
+}
+
+.menu {
+	padding: 30px 0 20px;
+	background: #fff; 
+	border:1px solid #dddddd;
+}
+table{
+	font: 14px/1.5 'SimSun','宋体','Tahoma';
+	font-size: 20px;
+	color: #333;
+}
+font{
+	font-size: 14px;
+}
+input{
+	font: 14px/1.5 'SimSun','宋体','Tahoma';
+	font-size: 20px;
+	color: #333;
+	height: 30px;
+	width: 250px;
+	outline: none;
+}
+.sex{
+	width: 15px;
+	vertical-align: middle;
+}
+#vcode{
+	width: 100px;
+	font: 14px/1.5 'SimSun','宋体','Tahoma';
+	font-size: 20px;
+	float: left;
+}
+select{
+	font: 14px/1.5 'SimSun','宋体','Tahoma';
+	font-size: 20px;
+	color: #333;
+	height: 30px;
+	width: 180px;
+}
+table .lefttd{
+	text-align: right;
+	width: 200px;
+}
+table .righttd{
+	text-align: left;
+	width: 400px;
+}
+
+
+.footer{
+	margin: 0 auto;
+	margin-top:50px;
+	text-align: center;
+}
+.copyright {
+	margin: 0 auto;
+}
+.img {
+	vertical-align: middle;
+}
+
+.registerbtn{
+	background: #e43f42;
+	border: 1px solid #e43f42;
+	box-shadow: inset 0 1px 0 #e43f42;
+	width: 140px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 10px;
+	color: white;
+}

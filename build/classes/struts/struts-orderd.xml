@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="orderd" namespace="/" extends="struts-default">
+  		<action name="orderdAction_*" class="orderdAction" method="{1}">
+  			<result name="input">/jsp/login.jsp</result>
+  			<result name="orderlist">WEB-INF/font/orderlist.jsp</result>
+  			<result name="orderdpay">WEB-INF/font/orderpay.jsp</result>
+			<result name="input">index.jsp</result>
+  		</action>
+  	</package>
+  	
+  	<package name="bgorderd" namespace="/" extends="struts-default">
+  		<action name="bgOrderdAction_*" class="bgOrderdAction" method="{1}">
+  			<result name="listUI">WEB-INF/bg/listorder.jsp</result>
+  			<result type="redirectAction" name="action2action">bgOrderdAction_allOrderds.action</result>
+  			
+  		</action>
+  	</package>
+</struts>	

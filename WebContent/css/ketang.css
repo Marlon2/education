@@ -1,0 +1,124 @@
+/* CSS Document */
+
+.pCourseSearch{
+	background-color: #f2f3f8;
+	border-bottom: 1px solid #DCDCDC;
+	height: 33px;
+	clear: both;
+}
+.pCourseSearch h2 {
+padding: 0 6px 0 0;
+width: 60px;
+text-align: right;
+float: left;
+color: #f74600;
+font-size: 14px;
+line-height: 32px;
+}
+.pCourseSearch .courseSearchFrom{
+	float: left;
+	position: relative;
+	padding: 5px 0 0 10px;
+}
+.pCourseSearch .searchWord{
+	border: 1px solid #CCC;
+	height: 22px;
+	padding-left: 3px;
+	width: 300px;
+	float: left;
+	margin-right: 5px;
+}
+.pCourseSearch .searchSubmit{
+	background: #226DDD;
+	color:white;
+	border: 0;
+	cursor: pointer;
+	height: 24px;
+	width: 70px;
+
+}
+	
+.teacherbar{
+	/* width: 955px; */
+	height: 38px;
+	line-height:38px;
+	border:1px solid #e0e0e0;
+	border-bottom:0;
+	font-size:16px;
+	color:black;
+	background-image:url(../images/teachernav.png);
+	margin: 0 auto;
+	padding-left: 20px;
+}	
+.searchList{
+	border: 1px solid #DFDFDF;
+	border-top: 0;
+	padding: 10px 20px;
+}
+.searchList .sItem{
+	padding: 15px 0 20px;
+	overflow: hidden;
+	zoom: 1;
+	border-bottom: 1px solid #e5e5e5;
+}
+.searchList .sItem .pics{
+	width: 210px;
+	height: 155px;
+	float: left;
+	margin-right: 18px;
+	position: relative;
+	text-align: center;
+}
+.searchList .sItem .info{
+	float: left;
+	width: 500px;
+}
+.searchList .sItem img{
+	height: 155px;
+}
+.searchList .sItem h4 a{
+	color: #226DDD;
+	font-size: 16px;
+}
+.searchList .sItem h4 span {
+	font-size: 12px;
+	color: #999; 
+	font-weight: normal;
+}
+.searchList .sItem .price {
+	padding-left: 50px;
+}
+.searchList .sItem .states{
+	float: right;
+	margin-top: 35px;
+	font-size: 16px;
+	color: #999;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 2px;
+}
+.searchList .sItem .btn1 {
+padding: 10px 5px 0 0;
+text-align: center;
+width: 150px;
+}
+.searchList .sItem .btn2 {
+	color:white;
+	background: #e43f42;
+	border: 1px solid #e43f42;
+	box-shadow: inset 0 1px 0 #e43f42;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 10px;
+}
+/* Ò³Âë */
+.pages{
+	padding: 10px 0;
+}
+
+

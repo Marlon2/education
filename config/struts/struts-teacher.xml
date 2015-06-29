@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+  	<package name="teacher" namespace="/" extends="struts-default">
+  		<action name="teacherAction_*" class="teacherAction" method="{1}">
+  			<result name="success">/WEB-INF/font/teacher.jsp</result>
+			<result name="list">/WEB-INF/font/listteacher.jsp</result>
+			<result name="input">index.jsp</result>
+			<result name="login">index.jsp</result>
+			<result name="login_out">/jsp/login.jsp</result>
+			<result name="detail">/WEB-INF/font/update.jsp</result>
+			<result name="course">/WEB-INF/font/personal.jsp</result>
+			<result name="update" type="redirectAction">personalAction_init.action</result>
+			<result name="saveUI">/WEB-INF/font/saveUI.jsp</result>
+			<result name="course">/WEB-INF/font/teacher.jsp</result>
+  		</action>
+  	</package>
+  	
+  	<package name="bgTeacher" namespace="/" extends="struts-default">
+  		<action name="bgTeacherAction_*" class="bgTeacherAction" method="{1}">
+  			<result name="list">/WEB-INF/bg/teacherlist.jsp</result>
+  			<result type="redirectAction" name="action2action">bgTeacherAction_allTeacher.action</result>
+  			
+  		</action>
+  	</package>
+</struts>	

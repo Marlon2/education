@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.configuration.xml.reload" value="true"/>
+	<constant name="struts.devMode" value="true"/>
+	<!-- 告诉struts2不要创建action，让spring帮助创建action -->
+	<constant name="struts.objectFactory" value="spring"></constant>
+	<include file="struts/struts-user.xml"></include>
+	<include file="struts/struts-home.xml"></include>
+	<include file="struts/struts-content.xml"></include>
+	<include file="struts/struts-register.xml"></include>
+	<include file="struts/struts-student.xml"></include>
+	<include file="struts/struts-cart.xml"></include>
+	<include file="struts/struts-banji.xml"></include>
+	<include file="struts/struts-teacher.xml"></include>
+	<include file="struts/struts-login.xml"></include>
+	<include file="struts/struts-grade.xml"></include>
+	<include file="struts/struts-upload.xml"></include>
+	<include file="struts/struts-orderd.xml"></include>
+	<include file="struts/struts-personal.xml"></include>
+	<include file="struts/struts-subject.xml"></include>
+	
+	<!-- <package name="ajax" extends="struts-default">
+		<result-types>
+			<result-type name="ajaxResult" class="cn.edu.education.util.AjaxResult"></result-type>
+		</result-types>
+	</package> -->
+</struts>

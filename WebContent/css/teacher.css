@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+body{
+	font: 18px/1.5 'Microsoft YaHei','微软雅黑','SimSun','宋体','Tahoma';
+	background:url(../images/common/bg.jpg) center top repeat-x !important;
+}
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#content1{
+	margin:0 auto;
+	width:955px;
+}
+.content2{
+	width:955px;
+	height:40px;
+	background-image:url(../images/common/2_c7.png);
+}
+.titlestyle10{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #4d4d4d;
+}
+
+.content3{
+	padding-top: 10px;
+	padding-left: 40px;
+}
+.content4{
+	width:955px;
+	height:9px;
+	background-image:url(../images/common/2_c8.png);
+}
+#content5{
+	background-image:url(../images/common/2_c9.png);
+}
+.content6{
+	padding-top: 0.6cm;
+	padding-left: 1cm;
+	padding-right: 1cm
+}
+.teacherinfo{
+	height: 260px;
+	padding-top: 20px;
+}
+.teacherinfoleft{
+	width: 400px;
+	float: left;
+	
+}
+.teacherinforight{
+	width: 400px;
+	float: left;
+	padding-top: 20px;
+}
+.teacherinforight p{
+	height: 30px;
+}
+
+.teacherdesp{
+	color:black;
+	line-height:150%;
+	font-size:16px
+}
+
+.teacherbar{
+	width: 850px;
+	height: 38px;
+	line-height:38px;
+	border:1px solid #e0e0e0;
+	font-size:16px;
+	color:black;
+	background-image:url(../images/teachernav.png);
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+.clsTable{
+	width: 100%;
+	font-size:16px;
+}
+.clsTable th{
+	padding: 0 10px 5px 10px;
+	border: 1px solid #e0e0e0;
+	border-top: 0;
+	white-space: nowrap;
+	text-align: left;
+	font-weight: normal;
+}
+.clsTable td{
+	border-bottom: 1px solid #e4e4e4;
+	line-height: 22px;
+	padding: 12px 10px;
+	font-weight: normal;
+}
+
+
+
+.clsTable .classname{
+	line-height: 18px;
+	padding-bottom: 4px;
+}
+.clsTable .classcode{
+	line-height: 18px;
+	padding-bottom: 4px;
+}
+
+
+
+
+.contentstyle{
+	margin-bottom: 5px;
+	font-size: 9pt;
+	margin-top: 5px;
+	line-height: 150%;
+}
+#blankstyle{
+	width:955px;
+	height:90px;
+	background-image:url(../images/common/2_c9.png);
+}
+#content_bottom{
+	width:955px;
+	height:15px;
+	background-image:url(../images/common/2_c12.png);
+}
+
+

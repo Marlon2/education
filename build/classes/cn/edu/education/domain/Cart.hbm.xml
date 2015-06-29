@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-6-3 10:51:26 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.edu.education.domain.Cart" table="ZC_CART">
+        <id name="id" type="java.lang.Long">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="sid" type="java.lang.Long">
+            <column name="SID" />
+        </property>
+        <property name="cid" type="java.lang.Long">
+            <column name="CID" />
+        </property>
+        <property name="remark" type="java.lang.String">
+            <column name="REMARK" />
+        </property>
+    </class>
+</hibernate-mapping>
